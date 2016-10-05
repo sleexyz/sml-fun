@@ -10,6 +10,7 @@ struct
   type t = int
   val append = (fn (x, y) => x + y)
   val zero = 0
+  val baz = 100
 end
 
 structure Multiplicative =
